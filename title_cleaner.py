@@ -41,6 +41,6 @@ for i, stemmed in enumerate(stemmed_titles):
     cleaned_titles.append(temp_title)
 
 
-with open('assets/cleaned_abstracts.pkl', 'wb') as file:
+with open('assets/titles.pkl', 'wb') as file:
     pickle.dump(cleaned_titles, file)
 
